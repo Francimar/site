@@ -15,6 +15,12 @@ main {
   position: relative;
 }
 
+main .header-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .logo {
   padding: 16px;
   width: 20%;
@@ -28,5 +34,39 @@ main {
 
 .redes-sociais {
   width: 20%;
+  float: right;
+}
+
+.redes-sociais ul {
+  display: flex;
+  align-items: center;
+}
+
+.header-2 {
+  background-color: #ffffff;
+  width: 100%;
+  border-bottom: 3px solid #efefef;
+}
+
+.menu ul li {
+  display: inline-block;
+  color: #8b8b8b;
+  margin-left: 15px;
+}
+
+.menu ul li a {
+  color: #8b8b8b;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.menu {
+  width: 70%;
+  float: left;
+}
+
+.busca {
+  width: 30%;
   float: right;
 }
